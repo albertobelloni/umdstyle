@@ -1,0 +1,7 @@
+Unix.*.Root.DynamicPath:    .:$(HOME)/root:$(HOME)/root/lib:$(ROOTLIB)
+Unix.*.Root.MacroPath:      .:$(HOME)/UMDStyle:$(HOME)/root/macros
+
+Unix.*.Editor:           xemacs
+
+Rint.Logon:	$(HOME)/UMDStyle/rootlogon.C
+Rint.Logoff:    $(HOME)/UMDStyle/rootlogoff.C
